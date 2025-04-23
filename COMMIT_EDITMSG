@@ -1,0 +1,6 @@
+Improve command handling and configuration for better bot usability
+
+Refactors command option ordering in /slowmode and /embedmessage; adds a command checker script and DB files for persistent data.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: 0897993b-0996-464f-b5cd-13bd77f31ec7
