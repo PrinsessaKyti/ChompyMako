@@ -1,0 +1,139 @@
+🌊 General Features
+Daily Ocean Fact or Lore
+
+Auto or command-triggered random ocean facts or sea legends.
+
+Themed Currency System
+
+Earn and track ocean-themed currency like 🐚 Shells, 💎 Pearls, or ⚓ Kraken Coins.
+
+Ocean Weather Reports
+
+Real or fantasy ocean-style weather forecasts.
+
+Sea Creature Catching Game
+
+Users can catch, collect, and release virtual fish, sea animals, or mythical creatures.
+
+Text Adventure Quests
+
+Explore the deep, battle sea monsters, or hunt treasure through interactive text adventures.
+
+🐚 Utility Features
+Welcome Messages
+
+Personalized oceanic greetings for new members.
+
+XP & Ranks
+
+Rank up with ocean-themed titles based on chat activity.
+
+Event Announcer
+
+Post and manage server events with nautical language.
+
+Birthday Announcements
+
+Track and celebrate member birthdays with themed messages.
+
+Role Assignment
+
+Let users pick or earn roles like “Sailor,” “Mermaid,” “Kraken Tamer,” etc.
+
+🐠 Fun/Interactive Commands
+/castnet – Catch a fish or sea creature.
+
+/aquarium – View your personal sea creature collection.
+
+/oceanfact – Get a random ocean fact or sea myth.
+
+/dropanchor – Bot joins VC and plays relaxing wave sounds.
+
+/voyage – Start a sea quest adventure.
+
+/messageinabottle – Send an anonymous, mod-filtered compliment or message.
+
+/pingkraken – Fun command where the bot "summons" the Kraken in a dramatic reply.
+
+/pearlbalance – View your currency balance.
+
+/topdivers – Leaderboard of most active users or richest users.
+
+⚓ Moderation Commands
+Basic Moderation
+/ban [user] [reason] – Banish a sailor from the seas.
+
+/kick [user] [reason] – Send a crew member overboard.
+
+/mute [user] [duration] [reason] – Gag a loud parrot (timeout).
+
+/unmute [user] – Let them speak once more.
+
+/warn [user] [reason] – Issue a sea scroll of warning.
+
+/warnings [user] – View a user's past infractions.
+
+/clear [amount] – Clear a number of messages from the tide (chat).
+
+Advanced Tools
+/lock [channel] – Lock down a channel (batten the hatches).
+
+/unlock [channel] – Reopen the channel to the crew.
+
+/slowmode [channel] [seconds] – Calm the waves (slowmode).
+
+/nuke [channel] – Delete and recreate a channel (extreme use only).
+
+Utility for Mods
+/modlog [user] – View all mod actions involving a user.
+
+/report [user] [reason] – Let members report rulebreakers (sends to mod channel).
+
+/setwelcome [channel] – Set the welcome port.
+
+/setlogs [channel] – Set where moderation logs drop anchor.
+
+🌊 Command: /embedmessage
+🧾 Command Syntax:
+vbnet
+Copy
+Edit
+/embedmessage 
+  title: [string] 
+  description: [string] 
+  color: [hex or preset] 
+  image_url: [optional image URL] 
+  footer: [optional text]
+  channel: [where to send it]
+✅ Example Use:
+shell
+Copy
+Edit
+/embedmessage 
+  title: "🦈 Shark Sighting!" 
+  description: "A giant Hammerhead has been spotted off the Coral Shores. Stay alert!" 
+  color: "#1DA1F2" 
+  image_url: "https://example.com/shark.png" 
+  footer: "Brought to you by Ocean Patrol" 
+  channel: #main-beach
+The bot then sends an embed to #main-beach like this:
+
+💬 Bot Output (Embed Example):
+🦈 Shark Sighting!
+A giant Hammerhead has been spotted off the Coral Shores. Stay alert!
+
+📷 (includes image)
+📎 Brought to you by Ocean Patrol
+
+Color border = #1DA1F2 (Blue)
+
+🛡️ Permissions & Safety Ideas
+Limit usage to certain roles (@First Mate, @Coral Crew, etc.).
+
+Use cooldowns (e.g., once every 10 mins per user).
+
+Auto-moderation: Strip banned words or dangerous URLs.
+
+Optional preview: Show the embed privately first and ask for confirmation with ✅ or ❌.
+
+Can be edited, removed
